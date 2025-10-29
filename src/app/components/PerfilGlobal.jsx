@@ -1,4 +1,11 @@
 
+/*
+  Comentario: CSS Global (app/globals.css)
+  Apropiado para estilos que se reutilizan ampliamente (ej: .tarjeta, reset, fuentes base)
+  o para definir el layout principal.
+  Limitación: Las clases son accesibles globalmente, lo que puede causar
+  conflictos si múltiples componentes usan accidentalmente el mismo nombre de clase.
+  */
 export default function PerfilGlobal() {
   return (
     <div className='tarjeta'>
