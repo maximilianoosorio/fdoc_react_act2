@@ -1,0 +1,39 @@
+/*
+  Apropiado para componentes que requieren estilos específicos y
+  evitar la colisión de nombres de clases (scoping), ya que Next.js añade un hash único.
+  Limitación: Requiere crear un archivo CSS adicional (.module.css) por componente
+  y usar la sintaxis styles.clase en el JSX.
+  */
+  .card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  max-width: 250px;
+  margin: 20px auto;
+}
+
+.producto {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.precio {
+  color: #0070f3;
+  margin: 8px 0;
+}
+
+.boton {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #444;
+}
