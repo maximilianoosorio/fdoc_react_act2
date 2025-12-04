@@ -5,20 +5,20 @@ import BadgeEstado from './components/BadgeEstado';
 import FichaProducto from './components/FichaProducto';
 import PerfilGlobal from './components/PerfilGlobal';
 
-
 export default function Page() {
   return (
     <main className="flex flex-col items-center gap-6 p-6">
       <PerfilGlobal />
+
       <FichaProducto />
-       <AvisoInline />
-      
-      {/* CORRECCIÓN: Usar la prop 'estado' con el valor de string esperado */}
-      <main className='flex flex-col items-center gap-6 p-6'>
+
+      <AvisoInline />
+
+      {/* Estado Activo */}
       <BadgeEstado estado="Activo" />
-      </main>
+
+      {/* Estado Inactivo */}
       <BadgeEstado estado="Inactivo" />
-      
     </main>
   );
 }

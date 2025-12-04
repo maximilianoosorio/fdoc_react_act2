@@ -1,60 +1,55 @@
+/* ===============================
+   Tarjeta General
+   =============================== */
+
 .tarjeta {
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  max-width: 300px;
+  background-color: #f3f4f6;         /* Fondo suave gris */
+  border: 2px solid #ccc;            /* Borde claro */
+  border-radius: 16px;               /* Bordes redondeados modernos */
+  padding: 20px;                     /* Espaciado interno */
+  text-align: center;                /* Centrado de contenido */
+  margin: 20px auto;                 /* Centrar tarjeta */
+  max-width: 300px;                  /* Limite de ancho */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
+
+/* ===============================
+   Título
+   =============================== */
 
 .titulo {
-  color: #333;
-  font-size: 1.4rem;
+  color: #333;               /* Texto principal */
+  font-size: 1.4rem;         /* Tamaño del título */
+  font-weight: 600;          /* Más legible */
+  margin-bottom: 8px;        /* Separación visual */
 }
+
+/* ===============================
+   Descripción
+   =============================== */
 
 .descripcion {
-  color: #666;
-  font-size: 0.95rem;
-  margin: 10px 0;
+  color: #666;               /* Texto gris medio */
+  font-size: 0.95rem;        /* Legible y moderno */
+  margin: 10px 0 16px;       /* Separación con título y botón */
+  line-height: 1.4;          /* Mejor lectura */
 }
+
+/* ===============================
+   Botón
+   =============================== */
 
 .boton {
-  background-color: #0070f3;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.boton:hover {
-  background-color: #0055aa;
-}
-
-/* no se */
-.tarjeta {
-  background-color: #f3f4f6;
-  border: 2px solid #ccc;
-  border-radius: 16px;
-  padding: 20px;
-  width: 280px;
-  text-align: center;
-  margin: 20px auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.boton {
-  background-color: #2563eb;
+  background-color: #2563eb; /* Azul profesional */
   color: white;
   border: none;
   padding: 10px 18px;
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
+  transition: background-color 0.2s ease; /* Animación suave */
 }
 
 .boton:hover {
-  background-color: #1d4ed8;
+  background-color: #1d4ed8; /* Azul más oscuro al pasar el mouse */
 }
-
